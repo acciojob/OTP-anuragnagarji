@@ -19,7 +19,7 @@ function lastInput(e){
     if(e.keyCode==8){
         
         index= Number(ind.slice(-1));
-        let end=document.getElementById("in"+(index-1));
+        let end=document.getElementById("code-"+(index-1));
         let len = end.value.length;
 
     // Mostly for Web Browsers get fucos at end of input
