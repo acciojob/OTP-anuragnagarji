@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+	margin:20px;
+	width:40px;
+	height:60px;
+	font-size:50px;
+	text-align:center;
+	color:gray;
+}
