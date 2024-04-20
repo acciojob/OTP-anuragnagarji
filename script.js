@@ -3,7 +3,8 @@ window. onload = function() {
     for(let inEle of inputs){
         inEle.value="";
     }
-    inputs[0]. focus(); }
+   // inputs[0]. focus(); 
+}
 for(let t of inputs){
 	t.addEventListener("keyup",nextInput);
 	t.addEventListener("keyup",lastInput);
@@ -48,9 +49,7 @@ if(isNaN(e.key)){ //if not a number enter user
 }
     
     else {
-        if(e.target.value.length>0){
-           // e.target.value="" //it use only keydown event 
-        }
+       
        index= Number(ind.slice(-1));
        inputs[index].focus();
     }
